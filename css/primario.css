@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  .icono-menu {
+	margin: 40px 50px;
+	position: relative;
+	z-index: 10;
+  }
+  
+  .icono-menu img {
+	vertical-align: top;
+	width: 40px;
+	cursor: pointer;
+  }
+  
+  .cont-menu {
+	background-color: rgb(42, 42, 42);
+	box-shadow: 2px 0px 5px 2px rgb(66, 66, 66);
+	width: 400px;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all 0.5s ease;
+  }
+  
+  .cont-menu ul {
+	padding: 100px 0px 20px 0px;
+	list-style: none;
+  }
+  
+  .cont-menu ul li {
+	color: white;
+	display: block;
+	font-size: 25px;
+	text-decoration: none;
+	padding: 10px 50px;
+	cursor: pointer;
+  }
+  
+  .cont-menu ul li {
+	color: white;
+	display: block;
+	font-size: 25px;
+	text-decoration: none;
+	padding: 10px 50px;
+	cursor: pointer;
+  }
+  
+  .cont-menu ul li:hoover {
+	background-color: rgb(228, 228, 228);
+	color: rgb(42, 42, 42);
+  }
+  
+  .active {
+	transform: translate(-600px);
+  }
+  
+  .opacity {
+	background-color: rgba(0, 0, 0, 0.5);
+	transition: all 0.5s ease;
+  }/*# sourceMappingURL=grid.css.map */
+body{
+	background-color: white;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.text-center{
+	text-align: center;
+}
+h1{
+	font-family: 'Roboto Slab', serif;
+	background-color: #85aedd;
+	color: black;
+	font-size: 40px;
+}
+h2{
+	font-family: 'Patua One', cursive;
+	font-size: 25px;
+}
+.turn{
+	background-color: lightgoldenrodyellow;
+}
+ol{
+	font-size: 20px;
+	background-color: #afd6af;
+}
+
+h3{
+	font-family: 'Patua One', cursive;
+	background-color: lightgoldenrodyellow;
+	font-size: 25px;
+}
+#turnos{
+	font-size: 20px;
+}
+#stop{
+	font-size: 17px;
+}
+.imagen{
+	width: 45%;
+}
+.jaja{
+	background-color: #f5f5f5;
+}
+main{
+	background-color: #8c96a0;
+}
